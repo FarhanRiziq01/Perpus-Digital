@@ -2,13 +2,13 @@ document.getElementById("actionButton").addEventListener("click", function (even
     event.preventDefault(); // Mencegah pengiriman formulir default
 
     // Mengambil nilai dari input
-    var namaValue = document.getElementById("name").value;
+    var namaValue = document.getElementById("nama").value;
     var emailValue = document.getElementById("email").value;
     var pesanValue = document.getElementById("message").value;
 
     // Membuat objek data JSON
     var jsonData = {
-        name: namaValue,
+        nama: namaValue,
         email: emailValue,
         message: pesanValue
     };
