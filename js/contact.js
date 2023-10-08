@@ -30,7 +30,7 @@ document.getElementById("actionButton").addEventListener("click", function (even
             console.log(result);
             alert("Data berhasil dikirim ke Pipedream.");
             // Mengatur nilai-nilai input kembali menjadi kosong setelah pengiriman berhasil
-            document.getElementById("name").value = "";
+            document.getElementById("nama").value = "";
             document.getElementById("email").value = "";
             document.getElementById("message").value = "";
         })
